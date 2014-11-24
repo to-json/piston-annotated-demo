@@ -1,0 +1,25 @@
+[package]
+
+name = "jumpy"
+version = "0.0.1"
+authors = ["me"]
+
+[[bin]]
+
+name = "game"
+
+[dependencies.piston]
+
+git = "https://github.com/PistonDevelopers/piston.git"
+
+[dependencies.sdl2_window]
+
+git = "https://github.com/PistonDevelopers/sdl2_window.git"
+
+[dependencies.graphics]
+
+git = "https://github.com/PistonDevelopers/graphics.git"
+
+[dependencies.opengl_graphics]
+
+git = "https://github.com/PistonDevelopers/opengl_graphics.git"
